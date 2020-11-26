@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>手机依赖程度调查表</title>
+		<script>
+			function funClear(){
+				document.getElementById("form").reset();
+			}
+		</script>
+	</head>
+	<body>
+		
+		<form id="form" action="" method="post">			
+			<table width="800px" height="100px"border="10px" align="center"  bgcolor="aliceblue">
+			    <tr>
+					<td colspan="2" align="center"><font size="7" face="宋体"color="">手机依赖调查问卷</font>
+						
+					</td>
+				</tr>
+				<tr>
+					<td	colspan="2" align="center" ><font size="5" face="黑体"color="">基本信息</font></td>
+				</tr>
+				<tr>
+					<td><lable for="name"></lable>请输入您的姓名</td>
+					<td><input type="text" id="name" size="10" placeholder="请输入您的姓名"/></td>
+				</tr>
+				<tr>
+					<td>您的性别</td>
+					<td>
+						男<input type="radio" name="sex"/> 
+						女<input type="radio" name="sex" checked/>
+					</td>
+				</tr>
+				<tr>
+					<td>您是大学生吗</td>
+					<td>
+						是<input type="radio" name="shenfen"/>
+						否<input type="radio" name="shenfen"checked/>
+					</td>
+				</tr>
+				<tr>
+					<td>请选择您的年龄段</td>
+					<td>
+						<select>
+							<option value="">20岁以下</option>
+							<option value="">21~30岁以下</option>
+							<option value="">31~40岁以下</option>
+							<option value="">40岁以上</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><lable for="position">您来自哪个省市</lable></td>
+					<td>
+						<select>
+							<option value="">山西</option>
+							<option value="">陕西</option>
+							<option value="">河北</option>
+							<option value="">河南</option>
+							<option value="">山东</option>
+							<option value="">其他</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td	colspan="2" align="center"><font size="5" face="黑体"color="">手机使用基本情况</font></td>
+				</tr>
+				<tr>
+					<td>您最常使用手机的那些功能</td>
+					<td>
+						<input type="radio" >聊天功能（微信、QQ等）<br>
+						<input type="radio" >视频软件<br>
+						<input type="radio" >游戏<br>
+						<input type="radio" >查询信息（百度、知乎等）<br>
+						<input type="radio" >其他<br>
+					</td>
+				</tr>
+				<tr>
+					<td	colspan="2" align="center"><font size="5" face="黑体"color="">手机依赖程度测量</font></td>
+				</tr>
+				<tr>
+					<td>在无法使用手机时，您是否会感到不自在甚至焦虑不安</td>
+					<td>
+						<input type="radio" name="frequency"/>从不
+						<input type="radio" name="frequency"/>偶尔
+						<input type="radio" name="frequency"/>一般
+						<input type="radio" name="frequency"/>经常
+						<input type="radio" name="frequency" checked/>总是
+					</td>
+				</tr>
+				<tr>
+					<td>总是挂念着手机，总是频繁的看手机是否有消息</td>
+					<td>
+						<input width="50px"type="radio" name="frequency"/>从不
+						<input type="radio" name="frequency2"/>偶尔
+						<input type="radio" name="frequency2"/>一般
+						<input type="radio" name="frequency2"/>经常
+						<input type="radio" name="frequency2" checked/>总是
+					</td>
+				</tr>
+				<tr>
+					<td>使用手机的时间比自己一开始预计的时间要长</td>
+				    <td>
+						<input type="radio" name="frequency1"/>从不
+						<input type="radio" name="frequency1"/>偶尔
+						<input type="radio" name="frequency1"/>一般
+						<input type="radio" name="frequency1"/>经常
+						<input type="radio" name="frequency1" checked/>总是
+					</td>
+				</tr>
+				<tr>
+					<td>您认为手机对你最大的帮助是什么</td>
+					<td	width="500px" height="100px"><input type="text" id="idea"  placeholder="请输入您的想法" size="50" style="height:90px;width:490px;"/></td>
+				</tr>
+				<tr>
+					<!--<td	align="center" colspan="2">
+					<input style="height=20px; width=50px;" type="submit">
+					<input type="reset" οnclick="funClear()">-->
+					<td colspan="2" align="center">
+						<a href="r3.html">提交</a>
+					</td>
+				</tr>
+				
+			</table>
+			开发者：182054407 李温静
+		</form>
+		
+	</body>
+</html>
